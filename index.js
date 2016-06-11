@@ -1,2 +1,5 @@
 #!/usr/bin/env node
-console.log('test');
+
+'use strict';
+const [node, me, action, ...args] = process.argv;
+require('./src/' + action)(...args);
