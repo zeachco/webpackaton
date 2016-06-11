@@ -1,0 +1,28 @@
+{
+  "name": "webpackaton",
+  "version": "0.0.1",
+  "description": "\"Tired of maintainning your tasks and builder dependencies? Don't do it. Need fast startup? Okay.\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src/* && exit 0;"
+  },
+  "bin": {
+    "webpackaton": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeachco/webpackaton.git"
+  },
+  "keywords": [
+    "webpack",
+    "template",
+    "build",
+    "tasks"
+  ],
+  "author": "Olivier Rousseau-Guyot",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/zeachco/webpackaton/issues"
+  },
+  "homepage": "https://github.com/zeachco/webpackaton#readme"
+}
